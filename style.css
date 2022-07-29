@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,700;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+  }
+.navbar{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+    vertical-align: top;
+  }
+  .logo{
+    position: fixed;
+    top: 25px;
+    margin-left: 50px;
+    width: 90px;
+  }
+  .list{
+    position: fixed;
+    /* display: flex; */
+    flex-direction: row;
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: hsl(0, 0%, 82%);
+    display: flex;
+    list-style: none;
+    width: 100vw;
+    height: 80px;
+    color: #fff;
+    justify-content: left;
+    /* justify-content: space-between; */
+    font-size: 15px;
+    margin-top: -50px;
+    margin-left: -100px;
+    padding-left: 350px;
+    background-color: #000000;
+    z-index: -1;
+
+  }
+  body{
+    position: absolute;
+    background-image: url(assets/bg.png);
+    background-position: top center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    z-index: -1;
+  }
+  /* .navbar div:first-child:after {
+    content: "|";
+    color: #fff;
+    display: fixed;
+    z-index: 1;
+
+    } */
+.v1{
+  border-left: 3px solid #ffffff;
+  height: 50px;
+  position: absolute;
+  left: 200px;
+  /* margin-left: -3px; */
+  top: 15px;
+ }
+ li.list-item{
+    margin-left: 50px;
+    margin-top: 25px;
+ }
+ .button-small{
+  position: fixed;
+  top: 25px;
+  right: 10%;
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: bold;
+  background-color: #e800e1;
+  padding: 5px 15px 5px 15px;
+  border-radius: 10px;
+ }
+
+ h1.hero-heading{
+  position: absolute;
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 80px;
+  text-align: center;
+  width: 100vw;
+  height: 100px;
+  /* border: 3px solid white; */
+  top: 25%;
+ }
+ p.hero-description{
+  /* border: 3px solid white; */
+  position: absolute;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Montserrat";
+  width: 100vw;
+  top: 55%;
+  /* left: 70%; */
+ }
+ button.button-large{
+  display: flex;
+  position: fixed;
+  top: 70%;
+  left: 43%;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  background-color: #e800e1;
+  border: 2px solid #e800e1;
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+.drop-down{
+  position: fixed;
+  z-index: 1;
+  width: 10px;
+  margin-top: 6px;
+  margin-left: 6px;
+
+  /* color: #fff; */
+  /* background-color: #fff; */
+}
